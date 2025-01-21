@@ -1,7 +1,7 @@
 # OpenAIRE Piwik tracker for EPrints.
 
 * Record usage data for OpenAIRE usage statistics.
-* Contact dpierrakos@gmail.com to request OpenAIRE Piwik Site ID and the Authentication Token.
+* Contact repositoryusagestats@openaire.eu to request OpenAIRE Piwik Site ID and the Authentication Token.
 * Copyleft 2017. Rudjer Boskovic Institute <http://www.irb.hr> and OpenAIRE <http://openaire.eu> Released to the public domain (or CC0 depending on your juristiction).
 * USE OF THIS EXTENSION IS ENTIRELY AT YOUR OWN RISK.
 
