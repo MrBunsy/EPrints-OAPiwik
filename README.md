@@ -1,6 +1,6 @@
-# OpenAIRE Piwik tracker for EPrints.
+# OpenAIRE Matomo tracker for EPrints.
 
-* Record usage data for OpenAIRE usage statistics.
+* Record usage data for OpenAIRE usage statistics in compliance with the COUNTER Code of Practice and the EOSC Beyond Interoperability Guidelines for Accounting Research Products.
 * Contact repositoryusagestats@openaire.eu to request OpenAIRE Piwik Site ID and the Authentication Token.
 * Copyleft 2017. Rudjer Boskovic Institute <http://www.irb.hr> and OpenAIRE <http://openaire.eu> Released to the public domain (or CC0 depending on your juristiction).
 * USE OF THIS EXTENSION IS ENTIRELY AT YOUR OWN RISK.
