@@ -1,20 +1,20 @@
-# OpenAIRE Piwik tracker for EPrints.
+# OpenAIRE Matomo tracker for EPrints.
 
-* Record usage data for OpenAIRE usage statistics.
-* Contact dpierrakos@gmail.com to request OpenAIRE Piwik Site ID and the Authentication Token.
+* Record usage data for OpenAIRE usage statistics in compliance with the COUNTER Code of Practice and the EOSC Beyond Interoperability Guidelines for Accounting Research Products.
+* Contact repositoryusagestats@openaire.eu to request OpenAIRE Piwik Site ID and the Authentication Token.
 * Copyleft 2017. Rudjer Boskovic Institute <http://www.irb.hr> and OpenAIRE <http://openaire.eu> Released to the public domain (or CC0 depending on your juristiction).
 * USE OF THIS EXTENSION IS ENTIRELY AT YOUR OWN RISK.
 
 ##  Installation
 1. Copy file from "lib/defaultfcg/cfg.d/" into your repository's cfg.d/ directory
 2. Copy file from "lib/plugins/EPrints/Plugin/Event/" into your repository's local Plugin/Event directory
-3. Edit config file and configure your OpenAIRE Piwik Site ID and the Authentication Token
+3. Edit config file and configure your OpenAIRE Matomo Site ID and the Authentication Token
 4. Edit config file for IP Anonymization. Specify the number of bytes in the IP Address that would be set to 0. Values in {1,2,3}. Leave empty for no Anonymization.
 5. Restart Apache.
 6. Tip: for development purposes it's possible to symlink the two files (1. and 2.) from appropriate directories
 
 ##  Implementation
-* Record to the configured Piwik server whenever an item is viewed or full-text object is requested from EPrints..
+* Record to the configured Matomo server whenever an item is viewed or full-text object is requested from EPrints..
 * The data transferred are:
   - eprint.eprintid: the eprint's internal identifier
   - eprint.datestamp: the datetime the access started
