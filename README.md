@@ -1,3 +1,7 @@
+# Eprints Notice
+
+* This plugin has been modified by EPrints Services to be easier to install. It is still under test, use at your own risk.
+
 # OpenAIRE Matomo tracker for EPrints.
 
 * Record usage data for OpenAIRE usage statistics in compliance with the COUNTER Code of Practice and the EOSC Beyond Interoperability Guidelines for Accounting Research Products.
@@ -8,9 +12,10 @@
 ##  Installation
 1. Check out this repo in the ingredients/ directory of your EPrints instance
 2. Copy config file from "ingredients/EPrints-OAPiwik/cfg/cfg.d/OAPiwik.pl" into your archives's cfg.d/ directory
-3. Edit config file and configure your OpenAIRE Matomo Site ID and the Authentication Token
-4. Edit config file for IP Anonymization. Specify the number of bytes in the IP Address that would be set to 0. Values in {1,2,3}. Leave empty for no Anonymization.
-5. Restart Apache.
+3. Add `ingredients/EPrints-OAPiwik` to flavours/pub\_lib/inc to activate the ingredient
+4. Edit config file and configure your OpenAIRE Matomo Site ID and the Authentication Token
+5. Edit config file for IP Anonymization. Specify the number of bytes in the IP Address that would be set to 0. Values in {1,2,3}. Leave empty for no Anonymization.
+6. Restart Apache.
 
 ##  Implementation
 * Record to the configured Matomo server whenever an item is viewed or full-text object is requested from EPrints..
